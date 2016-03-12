@@ -1,0 +1,12 @@
+http://stackoverflow.com/questions/2213607/how-to-get-english-language-word-database
+
+1	 	
+Best list I have found: raw.githubusercontent.com/docdis/english-words/master/….
+Thanks goes to @nelsonic. – james.garriss Jul 21 '15 at 11:28
+
+Found this 07/03/2016
+14:17
+
+Used python file to strip some text and added to dictionary file
+
+used sublime text to sort the file and remove duplicates.
