@@ -47,11 +47,6 @@ while inp != "99":
         else:
             pass
 
-    #print(result)
-    #print(result[maxlength])
     print(maxlength)
-    #result.sort(key=lambda x: len(x), reverse=True)
-    #print(result)
-    #print(result[-1])
-    #print("",result[sorted(result)[-1]])
+
 
