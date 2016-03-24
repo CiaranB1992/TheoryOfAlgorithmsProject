@@ -47,6 +47,6 @@ while inp != "99":
         else:
             pass
 
-    print(maxlength)
-
+    print(maxlength) 
+    #print(result) #uncomment to output all words contained in the dictionary file that match the user string
 
