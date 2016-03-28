@@ -1,5 +1,6 @@
 from collections import Counter
 import operator
+import timeit
 words = []
 
 
@@ -17,18 +18,18 @@ def getAnagrams(user):
 
     return content
 
-
-with open('Dictionary.txt', 'r') as f:
-    allwords = f.readlines()
-f.close()
-
-for x in allwords:
-    x = x.rstrip()
-    words.append(x)
-inp = 1
+def run():
+    with open('Dictionary.txt', 'r') as f:
+        allwords = f.readlines()
+    f.close()
 
 
-while inp != "99":
+    for x in allwords:
+        x = x.rstrip()
+        words.append(x)
+
+
+    
     inp = input("enter word:")
     result = getAnagrams(inp)
     
@@ -49,4 +50,8 @@ while inp != "99":
 
     print(maxlength) 
     #print(result) #uncomment to output all words contained in the dictionary file that match the user string
+        
 
+if __name__ == "__main__":
+    t = timeit.Timer("run()", "from __main__ import run")
+    print(t.timeit(3))
