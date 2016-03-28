@@ -1,3 +1,7 @@
+To Run this project:
+Run FinProject.py in console and ensure that the dictionary file is in the same diretory as this
+program.
+
 I have a few programs contained in my github repository and i am going to discuss each of them below.
 
 FinProjectpy:
